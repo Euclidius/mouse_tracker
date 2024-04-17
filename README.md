@@ -3,7 +3,7 @@
 Sometimes it is necessary to step away from the computer, but leave the screen on. Personally, such situations make me panic: "What if someone comes up and does something naughty with my precious data". 
 That's why I wrote this project, which tracks changes in the mouse position when you step away from your workplace.
 ## What it does
-The programme works in the form of a daemon. At the moment when you need to step away, you press a special key combination that moves your cursor to a position known only to you in advance. In case someone moves the mouse from this position, the webcam will take 3 pictures of the intruder, send them to Telegram and shut down the computer. When you return to the computer, you will either see it switched off and realise that someone tried to access it, or press another key combination, thus deactivating the script.
+The programme works in the form of a daemon. At the moment when you need to step away, you press a special key combination (LCtrl-LShift-/) that moves your cursor to a position known only to you in advance. In case someone moves the mouse from this position, the webcam will take 3 pictures of the intruder, send them to Telegram and shut down the computer. When you return to the computer, you will either see it switched off and realise that someone tried to access it, or press another key combination (LCtrl-LShift-RShift), thus deactivating the script.
 ## What it uses
 The entire programme is written in Rust using third-party open-source libraries. The language was chosen for its power and ease of use with peripherals such as keyboard, mouse, webcam.
 ## Install
