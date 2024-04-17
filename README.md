@@ -7,7 +7,7 @@ The programme works in the form of a daemon. At the moment when you need to step
 ## What it uses
 The entire programme is written in Rust using third-party open-source libraries. The language was chosen for its power and ease of use with peripherals such as keyboard, mouse, webcam.
 ## Install
-You can download the GitHub repository as standard. And either use the ready binary in `./target/release/mouse-tracker`, or build the project yourself.
+You can download the GitHub repository as standard. Now you need to build the project yourself.
 ```bash
 cargo build
 ```
